@@ -1,0 +1,13 @@
+logging.level:
+  root: INFO
+  cl.gatitos: DEBUG
+
+#tomcat
+#server.tomcat:
+#  basedir: tomcat
+#  accesslog:
+#    enabled: true
+#    pattern: '%h %l %u %t "%r" %s %b %D'
+
+spring.data.mongodb:
+  database: test
